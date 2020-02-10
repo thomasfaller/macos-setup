@@ -12,7 +12,8 @@ this is my setup when migrating to a new MacOS machine or re-installing.
 
 Homebrew allows to install not only CLI-based but full-desktop apps. This allows to automate installation of most required apps.
 
-Dev:
+Dev
+(Cask)
 
     brew cask install \
     chrome-devtools \
@@ -25,13 +26,27 @@ Dev:
     virtualbox \
     visual-studio-code
 
+(Others)
 
     brew install \
+    babel \
     bash bash-completion \
+    bash-git-prompt \
+    bash-prrxec \
     composer
     docker-compose \
+    gulp \
+    jhipster \
+    nginx \
     node \
-    zsh zsh-completions
+    php \
+    phplint
+    zsh zsh-completions \
+
+
+AWS
+
+    brew install aws-apigateway-importer aws-cdk aws-cfn-tools aws-elasticbeanstalk aws-google-auth awscli
 
 This should install NodeJS, Composer (PHP is installed on macOS by default), Visual Studio Code, Atom, VirtualBox, Vagrant, Docker, Docker-Compose.
 
