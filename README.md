@@ -10,11 +10,28 @@ this is my setup when migrating to a new MacOS machine or re-installing.
 
 ### Tools / Apps 🔧
 
-    brew install node composer visual-studio-code atom virtualbox vagrant docker docker-compose && brew update && brew upgrade && brew cleanup
-    
-    brew cask install google-chrome
-    brew cask install firefox
+Homebrew allows to install not only CLI-based but full-desktop apps. This allows to automate installation of most required apps.
 
+Dev:
+
+    brew cask install \
+    chrome-devtools \
+    docker 
+    firefox \
+    google-chrome \
+    iterm2 \
+    vagrant \
+    vagrant-manager \
+    virtualbox \
+    visual-studio-code \
+
+    brew install \
+    bash bash-completion \
+    composer
+    docker-compose \
+    node \
+    zsh zsh-completions
+    
 This should install NodeJS, Composer (PHP is installed on macOS by default), Visual Studio Code, Atom, VirtualBox, Vagrant, Docker, Docker-Compose.
 
 ---
