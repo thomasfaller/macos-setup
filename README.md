@@ -23,7 +23,9 @@ Dev:
     vagrant \
     vagrant-manager \
     virtualbox \
-    visual-studio-code \
+    visual-studio-code
+
+
 
     brew install \
     bash bash-completion \
