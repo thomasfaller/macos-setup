@@ -1,4 +1,4 @@
-# macOS setup
+# macOS setup 🖥💻
 
 this is my setup when migrating to a new MacOS machine or re-installing.
 
