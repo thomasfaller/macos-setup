@@ -33,7 +33,7 @@ Dev:
     docker-compose \
     node \
     zsh zsh-completions
-    
+
 This should install NodeJS, Composer (PHP is installed on macOS by default), Visual Studio Code, Atom, VirtualBox, Vagrant, Docker, Docker-Compose.
 
 ---
