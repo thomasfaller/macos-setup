@@ -15,34 +15,12 @@ Homebrew allows to install not only CLI-based but full-desktop apps. This allows
 Dev
 (Cask)
 
-    brew cask install \
-    chrome-devtools \
-    docker 
-    firefox \
-    google-chrome \
-    iterm2 \
-    vagrant \
-    vagrant-manager \
-    virtualbox \
-    visual-studio-code
+    brew cask install chrome-devtools docker firefox google-chrome iterm2 vagrant vagrant-manager virtualbox visual-studio-code
 
 (Others)
 
-    brew install \
-    babel \
-    bash bash-completion \
-    bash-git-prompt \
-    bash-prrxec \
-    composer
-    docker-compose \
-    gulp \
-    jhipster \
-    nginx \
-    node \
-    php \
-    phplint
-    zsh zsh-completions \
-
+    brew install babel bash bash-completion bash-git-prompt bash-prrxec composer docker-compose gulp jhipster nginx node php phplint zsh zsh-completions
+   
 
 AWS
 
