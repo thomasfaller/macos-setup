@@ -26,7 +26,6 @@ Dev:
     visual-studio-code
 
 
-
     brew install \
     bash bash-completion \
     composer
